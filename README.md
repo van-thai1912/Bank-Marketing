@@ -1,7 +1,5 @@
 # 🏦 Bank Marketing — Dự đoán khả năng khách hàng đăng ký tiền gửi có kỳ hạn
 
-Đồ án môn học **CS114.Q22 — Máy Học**, Trường Đại học Công nghệ Thông tin, ĐHQG-HCM.
-
 Dự án xây dựng lại toàn bộ pipeline Machine Learning trên bộ dữ liệu **Bank Marketing** của UCI: từ khám phá dữ liệu (EDA), tiền xử lý, huấn luyện — so sánh nhiều mô hình, cho đến một web demo Streamlit để minh họa kết quả.
 
 > 📄 Báo cáo chi tiết: [`Bank Marketing.pdf`](./Bank%20Marketing.pdf)
@@ -39,7 +37,6 @@ Các thách thức chính được xử lý trong đồ án:
 ## 📁 Cấu trúc thư mục
 
 ```
-Bank Marketing/
 ├── EDA/
 │   └── bank_marketing_eda.ipynb              # Khám phá dữ liệu, phân tích drift, tương quan
 ├── Feature Engineering + PreProcessing/
@@ -133,9 +130,3 @@ python -m streamlit run "Web Demo/app.py"
 - Moro, S., Cortez, P., & Rita, P. (2014). *A Data-Driven Approach to Predict the Success of Bank Telemarketing.* Decision Support Systems.
 - Pedregosa, F. et al. (2011). *Scikit-learn: Machine Learning in Python.* JMLR.
 - Tài liệu chính thức: scikit-learn, imbalanced-learn, XGBoost, LightGBM, Streamlit
-
----
-
-📄 Chi tiết đầy đủ về EDA, phương pháp và phân tích kết quả xem tại [`Bank Marketing.pdf`](./Bank%20Marketing.pdf).
-
-*Dự án phục vụ mục đích học tập — Môn CS114.Q22, Trường Đại học Công nghệ Thông tin, ĐHQG-HCM.*
